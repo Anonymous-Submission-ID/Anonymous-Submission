@@ -67,6 +67,15 @@ bash data/preprocess_kth.sh
 
 Then all preprocessed and subsequence splitted frames are obtained in ./data/kth/processed.
 
+If you only need to inference with released models, please run the code below for converting images into tfrecords for inference
+
+```
+bash data/kth2tfrecords.sh 
+
+```
+
+else, please skip this step and turn to Part 3 for separating active patterns along with non-active ones from videos.
+
 ## 3. Active pattern mining
 
 Active pattern mining is necessary only for training and there is no need for inference with released model.

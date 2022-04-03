@@ -59,6 +59,13 @@ For KTH, raw data and subsequence file should be downloaded firstly. In this tur
 
 [raw data](https://mega.nz/folder/JREhlAKB#U26ufSZcVSiw0EOOlW6pMw) and [subsequence file](https://mega.nz/folder/EVMiRJhB#Gboh1r5PmbqGv97db2974w).
 
+After downloading, drag all .zip and .tar.gz files into ./data directory, and run
+
+```
+bash data/preprocess_kth.sh
+```
+
+Then all preprocessed and subsequence splitted frames are obtained in ./data/kth/processed.
 
 ## 3. Active pattern mining
 

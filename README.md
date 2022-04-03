@@ -6,7 +6,9 @@ This is the implementation of the anonymous submission in ACMMM 2022: ID-137.
 
 (1) 2022-04-01：This project is going to be released, please waiting.
 
-(2) 2022-04-03: ...
+(2) 2022-04-03: The procedure of data preparation and proprecessing scripts on KTH are uploaded for inference.
+
+...
 
 ## 2. Getting started
 

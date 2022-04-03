@@ -4,7 +4,7 @@ This is the implementation of 'Active Patterns Perceived for Stochastic Video Pr
 
 ## 1. Important updates
 
-(1) 2022-04-01：This project is going to be released, please waiting.
+(1) 2022-04-01: This project is going to be released, please waiting.
 
 (2) 2022-04-03: The procedure of data preparation and proprecessing scripts on KTH are uploaded for inference.
 

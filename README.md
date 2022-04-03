@@ -2,25 +2,67 @@
 
 This is the implementation of the anonymous submission in ACMMM 2022: ID-137.
 
-## Important updates
+## 1. Important updates
 
 (1) 2022-04-01：This project is going to be released, please waiting.
 
-## Getting started
+(2) 2022-04-03: ...
 
-xxxxxx
+## 2. Getting started
 
-### Prerequisites
+The requirements of the hardware and software are given as below.
 
-What things you need to install the software and how to install them
+### 2.1. Prerequisites
+
+> CPU: Intel(R) Core(TM) i7-6900K CPU @ 3.20GHz
+>
+> GPU: GeForce GTX 1080 Ti
+> 
+> CUDA Version: 10.2
+> 
+> OS: Ubuntu 16.04.6 LTS
+
+### 2.2. Installing
+
+Configure the virtual environment on Ubuntu.
+
+(1) Create a virtual with python 3.6
 
 ```
-Give examples
+conda create -n asvp python=3.6
+conda activate asvp
 ```
 
-### Installing
+(2) Install requirements (Please pay attention that we use tensorflow-gpu==1.10.0)
 
-A step by step series of examples that tell you how to get a development env running
+```
+pip install -r requirements.txt
+```
+
+(3) Additionally install ffmpeg
+
+```
+conda install x264 ffmpeg -c conda-forge
+```
+
+Here the virtual env is created on Ubuntu.
+
+### 2.3. Dataset
+
+Datasets contain:
+
+[KTH human action dataset](https://www.csc.kth.se/cvap/actions/) & [BAIR action-free robot pushing dataset](https://sites.google.com/view/sna-visual-mpc/)
+
+For reproducing the experiment, the processed dataset should be downloaded. 
+
+For KTH, raw data and subsequence file should be downloaded firstly. In this turn of review, please temporarily download from:
+
+[raw data](https://mega.nz/folder/JREhlAKB#U26ufSZcVSiw0EOOlW6pMw) and [subsequence file](https://mega.nz/folder/EVMiRJhB#Gboh1r5PmbqGv97db2974w).
+
+
+## 3. Active pattern mining
+
+Active pattern mining is necessary only for training and there is no need for inference with released model.
 
 Say what the step will be
 
@@ -28,33 +70,11 @@ Say what the step will be
 Give the example
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-### Dataset
-
-[KTH human action dataset](https://www.csc.kth.se/cvap/actions/)
-
-## Active pattern mining
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-## Inference with released models
+## 4. Inference with released models
 
 Explain how to run the automated tests
 
-### Inference on KTH human action
+### 4.1. Inference on KTH human action
 
 Explain what these tests test and why
 
@@ -62,7 +82,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-### Inference on BAIR action-free robot pushing
+### 4.2. Inference on BAIR action-free robot pushing
 
 Explain what these tests test and why
 
@@ -70,21 +90,21 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Performance
+## 5. Performance
 
 Add additional notes about how to deploy this on a live system
 
-## More cases
+## 6. More cases
 
 Add additional notes about how to deploy this on a live system
 
-## Training
+## 7. Training
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## License
+## 8. License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 

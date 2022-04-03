@@ -73,7 +73,6 @@ If you only need to inference with released models, please run the code below fo
 
 ```
 bash data/kth2tfrecords.sh 
-
 ```
 
 else, please skip this step and turn to Part 3 for separating active patterns along with non-active ones from videos.

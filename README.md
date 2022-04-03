@@ -1,6 +1,6 @@
 # Anonymous submission ID-137
 
-This is the implementation of the anonymous submission in ACMMM 2022: ID-137.
+This is the implementation of 'Active Patterns Perceived for Stochastic Video Prediction' by the anonymous submission in ACMMM 2022: ID-137.
 
 ## 1. Important updates
 

@@ -79,9 +79,9 @@ else, please skip this step and turn to Part 3 for separating active patterns al
 
 ## 3. Active pattern mining
 
-Active pattern mining is necessary only for training and there is no need for inference with released model.
+Active pattern mining is necessary only for training and there is no need to do this if only with respective to inference with released model.
 
-Say what the step will be
+When trying to separate active patterns along with non-active ones from videos, please refer to 
 
 ```
 Give the example

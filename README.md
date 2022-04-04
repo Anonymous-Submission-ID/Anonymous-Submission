@@ -86,7 +86,7 @@ When trying to separate active patterns along with non-active ones from videos, 
 After all active patters and non-active patterns are mined, these images are convertted to tfrecords for training.
 
 ```
-Give the example
+bash data/kth2tfrecords_ap.sh
 ```
 
 ## 4. Inference with released models

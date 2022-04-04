@@ -81,7 +81,9 @@ else, please skip this step and turn to Part 3 for separating active patterns al
 
 Active pattern mining is necessary only for training and there is no need to do this if only with respective to inference with released model.
 
-When trying to separate active patterns along with non-active ones from videos, please refer to 
+When trying to separate active patterns along with non-active ones from videos, please refer to [details](https://github.com/Anonymous-Submission-ID/Anonymous-Submission/tree/main/separating_active_patterns/).
+
+After all active patters and non-active patterns are mined, these images are convertted to tfrecords for training.
 
 ```
 Give the example

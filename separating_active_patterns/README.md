@@ -28,30 +28,4 @@ then all separated patterns which are represented as masks are stored in the sam
 
 ## Visualized cases
 
-
-
-Datasets contain:
-
-[KTH human action dataset](https://www.csc.kth.se/cvap/actions/) & [BAIR action-free robot pushing dataset](https://sites.google.com/view/sna-visual-mpc/)
-
-For reproducing the experiment, the processed dataset should be downloaded. 
-
-For KTH, raw data and subsequence file should be downloaded firstly. In this turn of review, please temporarily download from:
-
-[raw data](https://mega.nz/folder/JREhlAKB#U26ufSZcVSiw0EOOlW6pMw) and [subsequence file](https://mega.nz/folder/EVMiRJhB#Gboh1r5PmbqGv97db2974w).
-
-After downloading, drag all .zip and .tar.gz files into ./data directory, and run
-
-```
-bash data/preprocess_kth.sh
-```
-
-Then all preprocessed and subsequence splitted frames are obtained in ./data/kth/processed.
-
-If you only need to inference with released models, please run the code below for converting images into tfrecords for inference
-
-```
-bash data/kth2tfrecords.sh 
-```
-
-else, please skip this step and turn to Part 3 for separating active patterns along with non-active ones from videos.
+![image](https://github.com/Anonymous-Submission-ID/Anonymous-Submission/blob/main/separating_active_patterns/figs/Figure%201.png)

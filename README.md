@@ -89,6 +89,8 @@ After all active patters and non-active patterns are mined, these images are con
 bash data/kth2tfrecords_ap.sh
 ```
 
+The final data could be downloaded from [drive](https://mega.nz/folder/VVlUiZII#kqCMjIRfCoS4IoOuMjTXZg/).
+
 ## 4. Inference with released models
 
 Explain how to run the automated tests

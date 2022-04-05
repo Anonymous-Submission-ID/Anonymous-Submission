@@ -2,7 +2,7 @@
 
 ## Active pattern mining & Growth transformation
 
-After the preparation of dataset, as below
+* After the preparation of dataset, as below
 
 >After downloading, drag all .zip and .tar.gz files into ./data directory, and run
 >
@@ -12,7 +12,7 @@ After the preparation of dataset, as below
 >
 >Then all preprocessed and subsequence splitted frames are obtained in ./data/kth/processed.
 
-For the preprocessed frames in ./data/kth/processed, run the demo 
+* For the preprocessed frames in ./data/kth/processed, run the demo 
 
 ```
 ap_mining_kth.m
@@ -20,11 +20,11 @@ ap_mining_kth.m
 
 then all separated patterns which are represented as masks are stored in the same directory as:
 
-——.\data\kth\processed\
-
-——.\data\kth\processed_ap\
-
-——.\data\kth\processed_nap\
+>——.\data\kth\processed\
+>
+>——.\data\kth\processed_ap\
+>
+>——.\data\kth\processed_nap\
 
 ## Visualized cases
 

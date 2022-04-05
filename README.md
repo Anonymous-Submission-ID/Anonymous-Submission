@@ -10,9 +10,9 @@ This is the implementation of 'Active Patterns Perceived for Stochastic Video Pr
 
 * 2022-04-03: The procedure of data preparation and proprecessing scripts on KTH are uploaded for inference.
 
-* 2022-04-04: Separating active patterns and non-active patterns from videos is finished.
+* 2022-04-04: Code of separating active patterns and non-active patterns from videos is uploaded.
 
-* 2022-04-06: Inference and Train are finished. Released models are provided.
+* 2022-04-06: Released models and code of inferencing and training is uploaded.
 
 * ...
 

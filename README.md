@@ -12,7 +12,7 @@ This is the implementation of 'Active Patterns Perceived for Stochastic Video Pr
 
 * 2022-04-04: Code of separating active patterns and non-active patterns from videos is uploaded.
 
-* 2022-04-06: Released models and code of inferencing and training is uploaded.
+* 2022-04-06: Released models and code of inferencing and training are uploaded.
 
 * ...
 

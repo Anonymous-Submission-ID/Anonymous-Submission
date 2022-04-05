@@ -2,6 +2,8 @@
 
 This is the implementation of 'Active Patterns Perceived for Stochastic Video Prediction' by the anonymous submission in ACMMM 2022: ID-137.
 
+![image](https://github.com/Anonymous-Submission-ID/Anonymous-Submission/blob/main/separating_active_patterns/figs/Figure%202.png)
+
 ## 1. Important updates
 
 * 2022-04-01: This project is going to be released, please waiting.

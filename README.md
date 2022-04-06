@@ -59,7 +59,7 @@ Here the virtual env is created on Ubuntu.
 
 Datasets contain: [KTH human action dataset](https://www.csc.kth.se/cvap/actions/) & [BAIR action-free robot pushing dataset](https://sites.google.com/view/sna-visual-mpc/). For reproducing the experiment, the processed dataset should be downloaded:
 
-* For KTH, raw data and subsequence file should be downloaded firstly. In this turn of review, please temporarily download from:
+* For KTH, raw data and subsequence file should be downloaded firstly. In this turn of submission, please temporarily download from:
 
 [raw data](https://mega.nz/folder/JREhlAKB#U26ufSZcVSiw0EOOlW6pMw) and [subsequence file](https://mega.nz/folder/EVMiRJhB#Gboh1r5PmbqGv97db2974w). After downloading, drag all .zip and .tar.gz files into ./data directory, and run
 
